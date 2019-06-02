@@ -44,3 +44,7 @@ def login_view(request):
     else:
         lform = LoginForm()
         return render(request,'login_form.html',{'lform':lform})
+
+
+def home(request):
+    pass
